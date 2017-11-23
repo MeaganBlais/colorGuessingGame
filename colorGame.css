@@ -36,3 +36,12 @@ h1 {
   height: 30px;
   width: 100px;
 }
+
+button {
+  height: 30px;
+  width: 50px;
+}
+
+.selected {
+  background-color: rgb(98, 241, 42);
+}
