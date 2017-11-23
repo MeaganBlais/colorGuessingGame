@@ -62,7 +62,6 @@ for(let i = 0; i <= squares.length; i++) {
   squares[i].addEventListener("click", function() {
     //grab color of clicked square
     let answer = this.style.backgroundColor;
-
     //compare color to pickedColor
     if (answer === pickedColor) {
       messageDisplay.textContent = "Correct!";
